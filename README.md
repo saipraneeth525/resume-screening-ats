@@ -1,42 +1,33 @@
 # Smart Resume Screening Tool (Mini ATS)
 
-A web-based application that automatically compares resumes with job descriptions using Natural Language Processing (NLP) and generates a match score along with skill-gap insights.
+This is a simple web app I built to check how well a resume matches a job description using Python and basic NLP techniques.
 
 ---
 
-## 📌 Project Overview
+## About the Project
 
-The Smart Resume Screening Tool (Mini ATS) helps users evaluate how well a resume matches a given job description. It extracts text from resume PDFs, processes the text using NLP techniques, and calculates similarity using TF-IDF and cosine similarity.
+I created this project after learning about how companies use Applicant Tracking Systems (ATS) to screen resumes.  
+The app lets users upload a resume (PDF) and paste a job description to get:
 
-This project is useful for:
-- Students optimizing resumes
-- Recruiters screening candidates
-- Learning NLP concepts through a real-world use case
+- A match score (how well the resume fits the job)  
+- A list of missing skills that can be improved  
 
----
-
-## 🚀 Features
-
-- Upload resume in PDF format  
-- Paste job description text  
-- Resume–JD match score (%)  
-- Skill gap analysis (missing skills)  
-- Simple and interactive UI using Streamlit  
-
----
-
-## 🛠 Tech Stack
-
+Building this helped me understand how Natural Language Processing works in real-world applications.
+## Features
+- Upload a resume in PDF format  
+- Paste a job description  
+- Get a resume–job match percentage  
+- See missing skills from the job description  
+- Simple and clean web interface using Streamlit  
+## Technologies Used
 - Python  
-- PyPDF2 (PDF text extraction)  
-- Regular Expressions (text cleaning)  
-- Scikit-learn (TF-IDF & cosine similarity)  
-- Streamlit (web interface)  
-- Git & GitHub  
+- PyPDF2 for extracting text from PDF files  
+- Regular expressions for basic text cleaning  
+- Scikit-learn for TF-IDF and similarity calculation  
+- Streamlit for building the web app interface  
+- Git and GitHub for version control  
 
----
-
-## ⚙️ How to Run the Project Locally
+## How to Run the Project
 
 1. Clone the repository:
    ```bash
